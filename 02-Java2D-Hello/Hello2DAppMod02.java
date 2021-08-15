@@ -10,7 +10,6 @@ public class Hello2DAppMod02 {
 
 /*Modificações feitas*/
 //Fazer um retangulo com fundo e bordas pintadas de cores diferentes
-//Mudar cor de fundo
 
 
 class Hello2DFrameMod02 extends JFrame {
