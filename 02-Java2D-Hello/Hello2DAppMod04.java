@@ -45,9 +45,15 @@ class Hello2DFrameMod04 extends JFrame {
         g2d.setStroke(new BasicStroke(5));
 
         //Cordenadas Grafico
-        int[] xPoints= {50,100,150,200,250,300,350};
-        int[] yPoints= {350,250,275,200,275,150,100};
+        int[] xPoints= {50,100};
+        int[] yPoints= {350,100};
         int nPoints = xPoints.length;
+
+
+        //,150,200,250,300,350
+
+        //,275,200,275,150,100
+
 
         /*Desenho seguimento de linha por pontos ( grafico )*/
         g2d.drawPolyline(xPoints, yPoints, nPoints);
