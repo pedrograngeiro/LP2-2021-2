@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.geom.Ellipse2D;
 import java.awt.geom.Ellipse2D.Double;
 
-class RectEllipseApp {
+class EllipseApp {
     public static void main (String[] args) {
         EllipseFrame frame = new EllipseFrame();
         frame.setVisible(true);
