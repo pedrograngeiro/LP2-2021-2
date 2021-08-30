@@ -5,8 +5,8 @@ import java.awt.geom.Ellipse2D;
 import java.awt.geom.Ellipse2D.Double;
 
 public class Ellipse {
-    int x, y;
-    int w, h;
+    private int x, y;
+    private int w, h;
 
     public Ellipse (int x, int y, int w, int h) {
         this.x = x;
@@ -15,7 +15,7 @@ public class Ellipse {
         this.h = h;
     }
 
-    public void print () {
+    private void print () {
         System.out.format("Retangulo de tamanho (%d,%d) na posicao (%d,%d).\n",
             this.w, this.h, this.x, this.y);
     }

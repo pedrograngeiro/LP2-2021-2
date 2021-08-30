@@ -3,8 +3,8 @@ package figures;
 import java.awt.*;
 
 public class Rect {
-    int x, y;
-    int w, h;
+    private int x, y;
+    private int w, h;
 
     public Rect (int x, int y, int w, int h){
         this.x = x;
@@ -13,7 +13,7 @@ public class Rect {
         this.h = h;
     }
 
-    public void print () {
+    private void print () {
         System.out.format("Retangulo de tamanho (%d,%d) na posicao (%d,%d).\n",
             this.w, this.h, this.x, this.y);
     }
