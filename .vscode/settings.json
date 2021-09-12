@@ -1,9 +1,5 @@
 {
     "java.project.sourcePaths": [
-        "03-Classes/2.1",
-        "03-Classes/1.1",
-        "02-Java2D-Hello",
-        "01-Hello",
-        "Java-testes"
+        "03-Classes/5.1"
     ]
 }

@@ -13,14 +13,18 @@ public class Rect {
         this.h = h;
     }
 
-    private void print() {
+    private void print () {
         System.out.format("Retangulo de tamanho (%d,%d) na posicao (%d,%d).\n",
             this.w, this.h, this.x, this.y);
     }
 
     public void paint (Graphics g) {
         Graphics2D g2d = (Graphics2D) g;
+        g2d.setColor(Color.pink);
+        g2d.setStroke(new BasicStroke(10));
         g2d.drawRect(this.x,this.y, this.w,this.h);
+        g2d.setColor(Color.black);
+        g2d.fillRect(this.x,this.y, this.w,this.h);
     }
 
 }
