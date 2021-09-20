@@ -5,8 +5,6 @@ import java.awt.event.*;
 import javax.swing.*;
 
 public class Line extends Figure{
-    private int x, y;
-    private int w, h;
 
     public Line (int x, int y, int w, int h) {
         this.x = x;
